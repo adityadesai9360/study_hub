@@ -60,7 +60,7 @@ main p {
     align-items: center;
     display: flex;
     margin: 25px;
-    color: black;
+    color: rgb(23, 169, 33);
 }
 
 main button {
