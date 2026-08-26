@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Firebase Login System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2 style="color: rgb(133, 47, 238);">Student Account</h2>
+
+        <!-- SIGN UP -->
+
+        <div id="signupBox">
+
+            <h3 style="color: rgb(107, 231, 219); font-weight: bold;" >Create Account</h3>
+
+            <input
+                type="text"
+                id="signupName"
+                placeholder="Full Name"
+            >
+
+            <input
+                type="email"
+                id="signupEmail"
+                placeholder="Email"
+            >
+
+            <input
+                type="password"
+                id="signupPassword"
+                placeholder="Password"
+            >
+
+            <button id="signupBtn">
+                Sign Up
+            </button>
+
+            <p id="signupMessage"></p>
+
+            <p>
+                Already have an account?
+                <span id="showLogin">Sign In</span>
+            </p>
+
+        </div>
+
+
+        <!-- SIGN IN -->
+
+        <div id="loginBox" style="display:none;">
+
+            <h3>Sign In</h3>
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Email"
+            >
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Password"
+            >
+
+            <button id="loginBtn">
+                Sign In
+            </button>
+
+            <p id="loginMessage"></p>
+
+            <p>
+                Don't have an account?
+                <span id="showSignup">Create Account</span>
+            </p>
+
+        </div>
+
+
+        <!-- USER DASHBOARD -->
+
+        <div id="dashboard" style="display:none;">
+
+            <h3>Welcome!</h3>
+
+            <p id="userEmail"></p>
+
+            <button id="logoutBtn">
+                Sign Out
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script type="module" src="script.js"></script>
+
+</body>
+
+</html>

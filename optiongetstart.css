@@ -1,0 +1,43 @@
+
+    body {
+        font-family: sans-serif;
+    }
+    .timetable {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    .timetable th, .timetable td {
+        border: 1px solid #ccc;
+        padding: 12px;
+        text-align: center;
+    }
+    .timetable th {
+        background-color: #f4f4f4;
+    }
+    .timetable td[contenteditable="true"] {
+        background-color: #fafafa;
+        cursor: text;
+        transition: background-color 0.2s;
+    }
+    .timetable td[contenteditable="true"]:focus {
+        background-color: #fff;
+        outline: 2px solid #007BFF;
+        outline-offset: -2px;
+    }
+
+    ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    
+}
+
+    ul li{
+    margin: 25px;
+    
+    }
