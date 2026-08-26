@@ -6,22 +6,23 @@
 body {
     margin: 0px;
     padding: 0px;
-}   
-h2{
- 
-align-items: center;
-justify-content: center;
-display: flex   ;
-margin: 25px;
+}
+
+h2 {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 25px;
 }
 
 
-nav{
+nav {
     display: flex;
- 
+
     align-items: center;
-    margin: 25px    ;
-     justify-content: space-around;
+    margin: 25px;
+    justify-content: space-around;
 }
 
 
@@ -30,49 +31,52 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px    ;
+    margin: 25px;
     gap: 80px;
- 
-}
-nav ul a{
 
-    text-decoration: none   ;
-   
 }
+
+nav ul a {
+
+    text-decoration: none;
+
+}
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-main h1{
+
+main h1 {
     align-items: center;
     justify-content: center;
-    display: flex   ;
+    display: flex;
     margin: 25px;
 }
 
-main p{
+main p {
     justify-content: center;
     align-items: center;
-    display: flex   ;
+    display: flex;
     margin: 25px;
     color: black;
 }
-main button{
-       
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  background-color: aqua;
-  font-weight: bold;
-  padding: 10px;
-  border-radius: 10px;
-  border: none;
-  cursor: pointer;
-  
-   
-      
 
-   
+main button {
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(209, 77, 6);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+
+
+
+
 }
-
